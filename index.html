@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <header class="fix">
+        <video src="airplane.mp4" class="vid" autoplay loop muted></video>
+        <div class="nav-area">
+            <div class="logo">
+             <span>Ind</span>ian
+            </div>
+            <ul class="menu_area">
+                <li class="active"><a href="#">Flight</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Trains</a></li>
+                <li><a href="#">Cabs</a></li>
+                <li><a href="#">Bus</a></li>
+                <li><a class="x1" href="#">Login or SignUP</a></li>                
+            </ul>
+        </div>
+        <div class="banner">           
+                <form action="/action_page.php">
+                  <label for="fname" class="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname" class="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country" class="f">From</label>
+                  <select id="country" name="country">
+                    <option value="australia">Select Location</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="usa">London</option>
+                    <option value="usa">Dubai</option>
+                    <option value="usa">China</option>
+                    <option value="usa">SouthAfrica</option>
+                  </select>
+                
+                   <label for="country" class="t">To</label>
+                  <select id="country" name="country">
+                    <option value="australia">Select location</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="usa">London</option>
+                    <option value="usa">Dubai</option>
+                    <option value="usa">China</option>
+                    <option value="usa">SouthAfrica</option>
+                  </select>
+                  <div class="date-selector">
+                  <label for="lname">Departure</label>
+                  <input type="date" id="lname" name="lastname" style="border-radius: 5%;" placeholder=""><br><br>
+                  <label for="return1">Return</label>
+                  <input type="date" id="lname" name="lastname" placeholder="">  
+                </div>
+                <input type="submit" value="Order Ticket now">
+                </form>       
+        </div>
+    </header>
+</body>
+</html>
+
+
